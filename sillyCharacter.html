@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Character Customizer 🎭</title>
+</head>
+<body>
+    <h1>Silly Character Customizer</h1>
+    <p id="characterDescription"></p>
+    
+    <!-- Input fields to update the character's name and age -->
+    <label for="nameInput">Change Name:</label>
+    <input type="text" id="nameInput" placeholder="Enter a new name">
+
+    <br><br>
+    
+    <label for="ageInput">Change Age:</label>
+    <input type="number" id="ageInput" min="0" placeholder="Enter a new age">
+    
+    <br><br>
+
+    <!-- Buttons for generating random character and updating age -->
+    <button id="generateButton">Generate Random Character</button>
+    <button id="increaseAgeButton">Increase Age</button>
+    <button id="decreaseAgeButton">Decrease Age</button>
+    <button id="toggleSuperheroButton">Toggle Superhero Status</button> <!-- New button for toggling superhero status -->
+    
+    <script src="sillyCharacter.js"></script>
+</body>
+</html>
